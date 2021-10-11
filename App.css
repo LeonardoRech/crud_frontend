@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  height: 60px;
+  background-color: black;
+}
+
+.header h1{
+  font-size: 50px;
+  font-weight: 300;
+  margin-left: 15%;
+  color: white;
+}
+
+.form{
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form label{
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.form input{
+  width: 300px;
+  height: 25px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.form button{
+  height: 25px;
+  width: 100px;
+  background-color: white;
+  text-transform: uppercase;
+  box-shadow: 0 0 2px black;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.form button:hover{
+  background-color: black;
+  color: white;
+}
+
+.card{
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.card div{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+div.nome{
+  width: 25%;
+  text-align: center;
+}
+
+div .marca{
+  width: 25%;
+}
+
+div .valor{
+  width: 25%;
+}
+
+div .deletar{
+  width: 10%;
+}
+
+div .editar{
+  width: 15%;
+  flex-direction: column;
+}
+
+.card div p{
+  margin: auto;
+  font-size: 25px;
+}
+
+.card button{
+  height: 25px;
+  padding: 5px;
+  width: 80px;
+  background-color: white;
+  text-transform: uppercase;
+  box-shadow: 0 0 2px black;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.card button:hover{
+  background-color: black;
+  color: white;
+}
+
+#updateInput{
+  width: 100px;
+  height: 20px;
+  margin: 5px 10px;
+}
